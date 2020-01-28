@@ -93,6 +93,86 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/ui/Master.js":
+/*!*********************************!*\
+  !*** ./components/ui/Master.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _Navigator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navigator */ "./components/ui/Navigator.js");
+var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/ui/Master.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const Master = props => __jsx("div", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, __jsx("title", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, "Bitcoin App"), __jsx("meta", {
+  charset: "utf-8",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}), __jsx("meta", {
+  name: "viewport",
+  content: "width=device-width, initial-scale=1, shrink-to-fit=no",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}), __jsx("link", {
+  rel: "stylesheet",
+  href: "https://bootswatch.com/4/pulse/bootstrap.min.css",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+})), __jsx(_Navigator__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "container mt-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, props.children));
+
+/* harmony default export */ __webpack_exports__["default"] = (Master);
+
+/***/ }),
+
 /***/ "./components/ui/Navigator.js":
 /*!************************************!*\
   !*** ./components/ui/Navigator.js ***!
@@ -102,40 +182,30 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/ui/Navigator.js";
 
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-
-const Navigator = props => __jsx("div", {
-  className: "jsx-4291286016",
+const Navigator = () => __jsx("nav", {
+  className: "navbar navbar-expand navbar-dark bg-primary",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
-}, __jsx("ul", {
-  className: "jsx-4291286016",
+}, __jsx("div", {
+  className: "container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("li", {
-  className: "jsx-4291286016",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
@@ -143,37 +213,69 @@ const Navigator = props => __jsx("div", {
   },
   __self: undefined
 }, __jsx("a", {
-  className: "jsx-4291286016",
+  className: "navbar-brand",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, " Inicio"))), __jsx("li", {
-  className: "jsx-4291286016",
+}, "BitCoin App")), __jsx("div", {
+  className: "collase navbar-collapse",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, " ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-  href: "/about",
+}, __jsx("ul", {
+  className: "navbar-nav ml-auto",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
   },
   __self: undefined
 }, __jsx("a", {
-  className: "jsx-4291286016",
+  className: "nav-link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 11
   },
   __self: undefined
-}, " About")))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-  id: "4291286016",
+}, "Home"))), __jsx("li", {
+  className: "nav-item",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
   __self: undefined
-}, "ul.jsx-4291286016{background-color:#333;list-style:none;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}ul.jsx-4291286016 li.jsx-4291286016{padding:.5rem 0;margin-right:1rem;}ul.jsx-4291286016 li.jsx-4291286016 a.jsx-4291286016{font-size:1.2rem;color:white;-webkit-text-decoration:none;text-decoration:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9oYXJyeWNhbXBhei9Eb2N1bWVudHMvUmVhY3RKcy9iaXRjb2luLW5leHRqcy9jb21wb25lbnRzL3VpL05hdmlnYXRvci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFTWSxBQUdzQyxBQU9MLEFBTUMsZ0JBTEMsQ0FNTixLQWJHLE9BY00sS0FMekIsSUFSaUIseUNBY2pCLGlDQWJBIiwiZmlsZSI6Ii9Vc2Vycy9oYXJyeWNhbXBhei9Eb2N1bWVudHMvUmVhY3RKcy9iaXRjb2luLW5leHRqcy9jb21wb25lbnRzL3VpL05hdmlnYXRvci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0IExpbmsgZnJvbSBcIm5leHQvbGlua1wiO1xuY29uc3QgTmF2aWdhdG9yID0gKHByb3BzKSA9PiAoXG4gICAgPGRpdj5cbiAgICAgICAgPHVsPlxuICAgICAgICAgICAgPGxpPiA8TGluayBocmVmPVwiL1wiID48YT4gSW5pY2lvPC9hPjwvTGluaz48L2xpPlxuICAgICAgICAgICAgPGxpPiA8TGluayBocmVmPVwiL2Fib3V0XCIgPjxhPiBBYm91dDwvYT48L0xpbms+PC9saT5cbiAgICAgICAgPC91bD5cbiAgICAgICAgPHN0eWxlIGpzeD57XG4gICAgICAgICAgICBgXG4gICAgICAgICAgICB1bCB7XG4gICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjojMzMzO1xuICAgICAgICAgICAgICAgIGxpc3Qtc3R5bGU6bm9uZTtcbiAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICB1bCBsaSB7XG5cbiAgICAgICAgICAgICAgICBwYWRkaW5nOiAuNXJlbSAwO1xuICAgICAgICAgICAgICAgIG1hcmdpbi1yaWdodDogMXJlbTtcblxuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICB1bCBsaSBhIHtcbiAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuMnJlbTtcbiAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICBgXG4gICAgICAgIH08L3N0eWxlPlxuICAgIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgTmF2aWdhdG9yOyJdfQ== */\n/*@ sourceURL=/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/ui/Navigator.js */"));
+}, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("a", {
+  className: "nav-link",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Nosotros")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigator);
 
@@ -1861,31 +1963,31 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_ui_Navigator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/ui/Navigator */ "./components/ui/Navigator.js");
+/* harmony import */ var _components_ui_Master__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/ui/Master */ "./components/ui/Master.js");
 var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/pages/about.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
-const about = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx(_components_ui_Navigator__WEBPACK_IMPORTED_MODULE_1__["default"], {
+const about = () => __jsx(_components_ui_Master__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}), __jsx("p", {
+}, __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, "Hattu About"));
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "Hattu Abouts")));
 
 /* harmony default export */ __webpack_exports__["default"] = (about);
 
@@ -1958,6 +2060,17 @@ module.exports = require("core-js/library/fn/weak-map");
 
 /***/ }),
 
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -1999,17 +2112,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 
