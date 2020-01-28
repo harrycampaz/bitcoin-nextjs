@@ -1987,7 +1987,19 @@ const about = () => __jsx(_components_ui_Master__WEBPACK_IMPORTED_MODULE_1__["de
     lineNumber: 10
   },
   __self: undefined
-}, "Hattu Abouts")));
+}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?")));
 
 /* harmony default export */ __webpack_exports__["default"] = (about);
 

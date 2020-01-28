@@ -10488,7 +10488,19 @@ var about = function about() {
       lineNumber: 10
     },
     __self: this
-  }, "Hattu Abouts")));
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (about);

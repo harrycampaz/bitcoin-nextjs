@@ -93,6 +93,266 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./components/News.js":
+/*!****************************!*\
+  !*** ./components/News.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _NewsItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NewsItem */ "./components/NewsItem.js");
+var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/News.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const News = props => {
+  return __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: undefined
+  }, props.news.map(newsItem => __jsx(_NewsItem__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    key: newsItem.url,
+    newsItem: newsItem,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (News);
+
+/***/ }),
+
+/***/ "./components/NewsItem.js":
+/*!********************************!*\
+  !*** ./components/NewsItem.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/NewsItem.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const NewItem = props => {
+  const {
+    urlToImage,
+    url,
+    title,
+    description,
+    source
+  } = props.newsItem;
+  let image;
+
+  if (urlToImage !== '') {
+    image = __jsx("img", {
+      src: urlToImage,
+      alt: title,
+      className: "card-img-top",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9
+      },
+      __self: undefined
+    });
+  } else {
+    image = __jsx("img", {
+      src: "https://carolinadojo.com/wp-content/uploads/2017/04/default-image.jpg",
+      alt: title,
+      className: "card-img-top",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: undefined
+    });
+  }
+
+  return __jsx("div", {
+    className: "col-md-6 col-12 mb-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "card",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "card-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: undefined
+  }, image), __jsx("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, __jsx("h3", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, title), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: undefined
+  }, description), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: undefined
+  }, source.name), __jsx("a", {
+    href: url,
+    target: "_blank",
+    className: "btn btn-primary d-block",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, "Leer mas..."))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (NewItem);
+
+/***/ }),
+
+/***/ "./components/Price.js":
+/*!*****************************!*\
+  !*** ./components/Price.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/components/Price.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Price = props => {
+  const {
+    price,
+    percent_change_1h,
+    percent_change_24h,
+    percent_change_7d
+  } = props.price;
+  return __jsx("div", {
+    className: "card text-white bg-success mb-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: undefined
+  }, __jsx("div", {
+    className: "card-header",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: undefined
+  }, " Precio del BitCoin"), __jsx("div", {
+    className: "card-body",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: undefined
+  }, __jsx("h4", {
+    className: "card-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: undefined
+  }, "precio actual $", price), __jsx("div", {
+    className: "d-md-flex justify-content-between",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: undefined
+  }, __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, "Ultima Hora:"), " ", percent_change_1h, " %"), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: undefined
+  }, "Ultimas 24 Horas:"), " ", percent_change_24h, " %"), __jsx("p", {
+    className: "card-text",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: undefined
+  }, __jsx("span", {
+    className: "font-weight-bold",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: undefined
+  }, "Ultima 7 dias:"), " ", percent_change_7d, " %"))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Price);
+
+/***/ }),
+
 /***/ "./components/ui/Master.js":
 /*!*********************************!*\
   !*** ./components/ui/Master.js ***!
@@ -278,6 +538,22 @@ const Navigator = () => __jsx("nav", {
 }, "Nosotros")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigator);
+
+/***/ }),
+
+/***/ "./config/constants.js":
+/*!*****************************!*\
+  !*** ./config/constants.js ***!
+  \*****************************/
+/*! exports provided: GLOBAL */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GLOBAL", function() { return GLOBAL; });
+const GLOBAL = {
+  apiKeyNews: 'e2e31acf44744967adbfc05c32672e50'
+};
 
 /***/ }),
 
@@ -1964,64 +2240,98 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_ui_Master__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/ui/Master */ "./components/ui/Master.js");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
+/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_Price__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Price */ "./components/Price.js");
+/* harmony import */ var _components_News__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/News */ "./components/News.js");
+/* harmony import */ var _config_constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config/constants */ "./config/constants.js");
 var _jsxFileName = "/Users/harrycampaz/Documents/ReactJs/bitcoin-nextjs/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
  //import React from 'react';
 
-const Index = () => __jsx(_components_ui_Master__WEBPACK_IMPORTED_MODULE_1__["default"], {
+const Index = props => __jsx(_components_ui_Master__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 12
   },
   __self: undefined
 }, __jsx("div", {
   className: "row",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 13
   },
   __self: undefined
 }, __jsx("div", {
   className: "col-12",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("h2", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, "Precio del bitcoin")), __jsx("div", {
-  className: "col-md-8",
-  __source: {
-    fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
+}, __jsx(_components_Price__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  price: props.priceBitcoin,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "col-md-8",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 16
+    lineNumber: 22
   },
   __self: undefined
-}, "NOticias del bitcoin")), __jsx("div", {
+}, "Noticias del bitcoin"), __jsx(_components_News__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  news: props.news,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+})), __jsx("div", {
   className: "col-md-4",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 25
   },
   __self: undefined
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 26
   },
   __self: undefined
-}, "Proximos eventos del bitcoin"))));
+}, "Mas informacion sobre bitcoin"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam ipsa dicta omnis. Adipisci consectetur esse minima molestiae earum officiis similique sit dolor, sequi tenetur soluta eveniet vel quod? Assumenda, fugit?"))));
+
+Index.getInitialProps = async () => {
+  const price = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()('https://api.coinmarketcap.com/v2/ticker/1/');
+  const news = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_2___default()(`https://newsapi.org/v2/everything?q=bitcoin&from=2019-12-28&sortBy=publishedAt&apiKey=${_config_constants__WEBPACK_IMPORTED_MODULE_5__["GLOBAL"].apiKeyNews}&language=es`);
+  const resultPrice = await price.json();
+  const resultNews = await news.json();
+  return {
+    priceBitcoin: resultPrice.data.quotes.USD,
+    news: resultNews.articles
+  };
+};
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
 
@@ -2091,6 +2401,17 @@ module.exports = require("core-js/library/fn/symbol/iterator");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "isomorphic-unfetch":
+/*!*************************************!*\
+  !*** external "isomorphic-unfetch" ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("isomorphic-unfetch");
 
 /***/ }),
 
