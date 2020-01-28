@@ -185,7 +185,7 @@ var Navigator = function Navigator() {
       lineNumber: 15
     },
     __self: this
-  }, "Nosotros")))))));
+  }, "About us")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigator);

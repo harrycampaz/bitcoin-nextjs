@@ -535,7 +535,7 @@ const Navigator = () => __jsx("nav", {
     lineNumber: 15
   },
   __self: undefined
-}, "Nosotros")))))));
+}, "About us")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Navigator);
 
